@@ -1,0 +1,8 @@
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
+@import "sb-admin.css";
+
+.navbar-brand-title {
+    color: #fff !important;
+}
+
