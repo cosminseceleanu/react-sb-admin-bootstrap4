@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    Nav,
     NavItem,
     NavLink,
     Form,
@@ -13,7 +14,7 @@ import MessagesDropdownContainer from '../../containers/messages-dropdown-contai
 
 const Header = () => {
     return (
-        <ul className="navbar-nav ml-auto">
+        <Nav navbar className="ml-auto">
             <MessagesDropdownContainer/>
             <AlertsDropdownContainer/>
             <NavItem>
@@ -27,7 +28,7 @@ const Header = () => {
             <NavItem>
                 <NavLink href="/logout"> <i className="fa fa-fw fa-sign-out"/> Logout </NavLink>
             </NavItem>
-        </ul>
+        </Nav>
     )
 };
 

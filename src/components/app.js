@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-import Navigation from './navigation';
+import NavigationContainer from '../containers/navigation-container';
 import Content from './content';
 
 class App extends Component {
   render() {
     return (
         <div>
-          <Navigation/>
+          <NavigationContainer/>
           <Content/>
         </div>
     );
