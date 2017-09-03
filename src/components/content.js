@@ -1,18 +1,14 @@
 import React from 'react';
+import {Container} from 'ahoy-reactstrap';
+
+import Feed from './feed/feed';
 
 const Content = () => {
     return (
         <div className="content-wrapper">
-
-            <div className="container-fluid">
-
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item">
-                        <a href="/">Dashboard</a>
-                    </li>
-                    <li className="breadcrumb-item active">My Dashboard</li>
-                </ol>
-            </div>
+            <Container fluid>
+                <Feed/>
+            </Container>
         </div>
     )
 };
