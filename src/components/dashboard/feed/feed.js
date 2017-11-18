@@ -4,7 +4,7 @@ import {
 } from 'reactstrap';
 
 import Item from './item';
-import {feedItems} from "../../data/feed-items";
+import {feedItems} from "../../../data/feed-items";
 
 const Feed = () => {
     const items = feedItems.map((item, index) => <Item key={index} item={item}/>);

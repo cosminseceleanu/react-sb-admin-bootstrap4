@@ -1,7 +1,8 @@
 import React from 'react';
 import {Row, Col} from 'reactstrap'
 
-import Feed from "../feed/feed";
+import Feed from "../dashboard/feed/feed";
+import Charts from "../dashboard/charts";
 import IconCard from "../ui/icon-card";
 
 const Dashboard = () => {
@@ -10,7 +11,14 @@ const Dashboard = () => {
             <Row>
                 {renderIconCards()}
             </Row>
-            <Row> <Feed/> </Row>
+            <Row>
+                <Col lg="8">
+                    <Charts/>
+                    <Feed/>
+                </Col>
+                <Col lg="4">
+                </Col>
+            </Row>
         </div>
     )
 };
