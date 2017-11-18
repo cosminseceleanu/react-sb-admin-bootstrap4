@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ahoy-reactstrap": "^5.0.1-alpha",
     "bootstrap": "^4.0.0-beta",
     "datatables.net-bs4": "^1.10.16",
     "font-awesome": "^4.7.0",
@@ -15,7 +14,8 @@
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.12",
-    "react-transition-group": "^1.2.0"
+    "react-transition-group": "^1.2.0",
+    "reactstrap": "^5.0.0-alpha.4"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",

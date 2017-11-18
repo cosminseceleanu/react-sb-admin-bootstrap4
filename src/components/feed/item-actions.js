@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {CardBody} from 'ahoy-reactstrap';
+import {CardBody} from 'reactstrap';
 
 const ItemActions = () => {
     return (

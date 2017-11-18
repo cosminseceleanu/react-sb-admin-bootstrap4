@@ -3,7 +3,7 @@ import React from 'react';
 import {
     NavItem,
     NavLink
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 const SidebarItem = ({title, icon, href = '/'}) => {
     return (

@@ -10,7 +10,7 @@ import {
     FormGroup,
     Button,
     Col
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 const Register = () => {
     return (

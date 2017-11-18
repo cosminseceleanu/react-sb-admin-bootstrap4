@@ -2,7 +2,7 @@ import React from 'react';
 import {
     Row,
     Col
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 import Item from './item';
 import {feedItems} from "../../data/feed-items";

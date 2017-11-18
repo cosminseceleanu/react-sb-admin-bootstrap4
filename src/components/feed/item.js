@@ -9,7 +9,7 @@ import {
     CardFooter,
     CardTitle,
     CardText
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 const Item = ({item}) => {
     return (

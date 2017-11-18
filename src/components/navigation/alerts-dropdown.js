@@ -6,7 +6,7 @@ import {
     DropdownToggle,
     DropdownItem,
     Badge
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 const AlertsDropdown = ({isDropdownOpen, toogleDropdown}) => {
     return (

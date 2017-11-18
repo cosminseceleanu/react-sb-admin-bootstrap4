@@ -7,7 +7,7 @@ import {
     InputGroup,
     Input,
     Button,
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 import AlertsDropdownContainer from '../../containers/alerts-dropdown-container';
 import MessagesDropdownContainer from '../../containers/messages-dropdown-container';

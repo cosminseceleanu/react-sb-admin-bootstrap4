@@ -10,7 +10,7 @@ import {
     Label,
     FormGroup,
     Button
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 const ForgotPassword = () => {
     return (

@@ -5,7 +5,7 @@ import {
     NavbarToggler,
     NavbarBrand,
     Collapse
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 import Sidebar from './navigation/sidebar';
 import Header from './navigation/header';

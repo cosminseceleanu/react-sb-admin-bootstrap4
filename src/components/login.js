@@ -9,7 +9,7 @@ import {
     Label,
     FormGroup,
     Button
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 const Login = () => {
     return (

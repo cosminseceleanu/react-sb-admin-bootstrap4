@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from 'ahoy-reactstrap';
+import {Container} from 'reactstrap';
 
 import Feed from './feed/feed';
 import NavigationContainer from '../containers/navigation-container';

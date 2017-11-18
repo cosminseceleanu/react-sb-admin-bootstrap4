@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Nav} from 'ahoy-reactstrap';
+import {Nav} from 'reactstrap';
 
 import SidebarItem from './sidebar-item';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     Media
-} from 'ahoy-reactstrap';
+} from 'reactstrap';
 
 import CommentActions from './comment-actions';
 
