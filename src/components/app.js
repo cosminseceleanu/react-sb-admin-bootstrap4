@@ -5,10 +5,10 @@ import {
     Switch,
 } from 'react-router-dom'
 
-import Admin from './admin';
-import Login from './login';
-import Register from './register';
-import ForgotPassword from './forgot-password';
+import Admin from './pages/admin';
+import Login from './pages/login';
+import Register from './pages/register';
+import ForgotPassword from './pages/forgot-password';
 
 class App extends Component {
   render() {

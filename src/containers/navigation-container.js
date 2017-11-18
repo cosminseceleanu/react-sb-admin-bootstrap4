@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-import Navigation from '../components/navigation';
+import Navigation from '../components/navigation/navigation';
 
 
 export default class NavigationContainer extends Component {

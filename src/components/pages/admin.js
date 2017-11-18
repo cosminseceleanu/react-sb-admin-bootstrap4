@@ -1,8 +1,8 @@
 import React from 'react';
 import {Container} from 'reactstrap';
 
-import Feed from './feed/feed';
-import NavigationContainer from '../containers/navigation-container';
+import Dashboard from './dashboard';
+import NavigationContainer from '../../containers/navigation-container';
 
 const Admin = () => {
     return (
@@ -10,7 +10,7 @@ const Admin = () => {
             <NavigationContainer/>
             <div className="content-wrapper">
                 <Container fluid>
-                    <Feed/>
+                    <Dashboard/>
                 </Container>
             </div>
         </div>

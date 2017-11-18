@@ -7,8 +7,8 @@ import {
     Collapse
 } from 'reactstrap';
 
-import Sidebar from './navigation/sidebar';
-import Header from './navigation/header';
+import Sidebar from './sidebar';
+import Header from './header';
 
 const Navigation = ({isOpen, toogleNavbar}) => {
     return (
